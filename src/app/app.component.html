@@ -1,0 +1,11 @@
+<main>
+  <app-learning-resources appLog/>
+
+  <hr />
+
+  <app-auth appLog/>
+
+  <p *appAuth="'admin'">This should see admin</p>
+  <p *appAuth="'user'">This should see user</p>
+  <p *appAuth="'guest'">This should see guest</p>
+</main>

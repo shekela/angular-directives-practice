@@ -1,0 +1,16 @@
+<h2 appLog>Authenticate to access all resources</h2>
+<form (ngSubmit)="onSubmit()">
+  <p appLog>
+    <label>E-Mail</label>
+    <input type="email" name="email" [(ngModel)]="email" />
+  </p>
+
+  <p appLog>
+    <label>Password</label>
+    <input type="password" name="password" [(ngModel)]="password" />
+  </p>
+
+  <p appLog>
+    <button type="submit">Login</button>
+  </p>
+</form>
